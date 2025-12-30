@@ -62,7 +62,7 @@ sensor:
     name: Meter Reactive Power
     device_class: reactive_power
     state_class: measurement
-    unit_of_measurement: VAr
+    unit_of_measurement: var
     register_type: read
     address: 3264 # = 3265 - 1
     value_type: S_DWORD
